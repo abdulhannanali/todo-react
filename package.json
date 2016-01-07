@@ -1,0 +1,29 @@
+{
+  "name": "todo-react",
+  "version": "1.0.0",
+  "description": "a todo list in the awesome react",
+  "main": "index.js",
+  "dependencies": {
+    "minifyify": "^7.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulhannanali/todo-react.git"
+  },
+  "keywords": [
+    "todolist",
+    "react",
+    "reactjs",
+    "reactdom"
+  ],
+  "author": "Hannan Ali (abdulhannanali@outlook.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdulhannanali/todo-react/issues"
+  },
+  "homepage": "https://github.com/abdulhannanali/todo-react#readme"
+}
