@@ -4,10 +4,40 @@
     <meta charset="utf-8">
     <title>TodoReact</title>
     <link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+      #divContainer {
+        margin-top: 20px;
+      }
+
+      #titleTodo {
+        margin-top: 60px;
+      }
+    </style>
   </head>
   <body>
+    <nav class="green">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo">todoReact</a>
+        </div>
+      </div>
+    </nav>
     <div class="container">
-      <div id="divContainer"></div>
+      <div class="row">
+        <div class="col s6">
+          <img src="assets/img/reactjs.png"/>
+        </div>
+        <div class="col s6 vertical-align">
+          <h4 id="titleTodo">TodoList in ReactJS</h4>
+          <h5>Learn more about ReactJS <a href="https://facebook.github.io/react">here</a></h5>
+          <h5><a href="https://github.com/abdulhannanali/todo-react"><i class="material-icons">star</i></a> this TodoList's repo on Github</h5>
+          <h5>Made with <i class="material-icons red-text">favorite</i> in <a href="https://codein.withgoogle.com">Google CodeIn</a> with <a href="http://fossasia.org">FOSSASIA</a></h5>
+        </div>
+      </div>
+      <div class="row">
+        <div id="divContainer"></div>
+      </div>
     </div>
 
     <!-- development react files online CDN -->
@@ -19,8 +49,11 @@
     <script src="https://fb.me/react-dom-0.14.6.min.js"></script> -->
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="react-0.14.6/build/react.js"></script>
-    <script src="react-0.14.6/build/react-dom.js"></script>
-    <script type="text/javascript" src="bundle.js"></script>
+    <script type="text/javascript" src="build/bundle.min.js"></script>
+    <script type="text/javascipt">
+      $(document).ready(function () {
+        $(".tooltipped").tooltip({delay: 20})
+      })
+    </script>
   </body>
 </html>
