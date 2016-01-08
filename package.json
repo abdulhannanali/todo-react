@@ -4,7 +4,19 @@
   "description": "a todo list in the awesome react",
   "main": "index.js",
   "dependencies": {
-    "minifyify": "^7.1.0"
+    "babel-preset-stage-0": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "lodash": "^3.10.1",
+    "minifyify": "^7.1.0",
+    "plumber": "^0.4.8",
+    "uglify": "^0.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1",
+    "whatwg-fetch": "^0.10.1"
   },
   "devDependencies": {},
   "scripts": {
